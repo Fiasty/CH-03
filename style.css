@@ -252,7 +252,7 @@ a:hover {
   position: absolute;
   width: 255px;
   height: 217px;
-  background-image: url("../images/dots-light.svg");
+  background-image: url("dots-light.svg");
   background-size: contain;
   background-repeat: no-repeat;
   right: -100px;
@@ -283,6 +283,7 @@ footer a:hover {
 
 footer {
   padding: 80px 0;
+  background: #ffffff;
 }
 
 .footer-newsletter-col {
@@ -304,6 +305,10 @@ footer {
   color: #3b5d50;
   border-radius: 50%;
   transition: 0.15s all;
+  -webkit-transition: 0.15s all;
+  -moz-transition: 0.15s all;
+  -ms-transition: 0.15s all;
+  -o-transition: 0.15s all;
 }
 
 .footer-link-wrap li {
@@ -411,10 +416,20 @@ footer .subscription-form .btn {
   z-index: 1;
 }
 
+
+
+/* Home Product-section text-content-style  */
+
+.section-title {
+  color: var(--main-dark);
+}
+
+
+
+
 /* Shop styles  */
 .product-section {
   padding: 7rem 0 12rem 0 !important;
-  text-align: center;
 }
 
 .product-section .product-item .product-image {
@@ -422,6 +437,10 @@ footer .subscription-form .btn {
   position: relative;
   top: 0;
   transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 .product-section .product-item:hover .product-image {
@@ -441,6 +460,10 @@ footer .subscription-form .btn {
   left: 50%;
   transition: 0.3s all ease;
   opacity: 0;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 .product-section .product-item h3 {
@@ -467,6 +490,10 @@ footer .subscription-form .btn {
   border-radius: 10px;
   margin: 0 10px;
   transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
 }
 
 .product-section .product-item:hover:before {
@@ -486,4 +513,46 @@ footer .subscription-form .btn {
   opacity: 1;
   bottom: 0;
   margin-bottom: -17.5px;
+}
+
+
+/* Blog style */
+
+.blog-section {
+  padding: 7rem 0 12rem 0;
+}
+
+.blog-section .post-entry .post-thumbnail {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.blog-section .post-entry .post-thumbnail img {
+  border-radius: 20px;
+  transition: 0.3s all ease;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.blog-section .post-entry:hover .post-thumbnail img {
+  opacity: 0.7;
+}
+
+.blog-section .post-entry .post-content-entry {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.blog-section .post-entry .post-content-entry h3 a {
+  color: var(--main-dark);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blog-section .post-entry .post-content-entry .meta a {
+  color: var(--main-dark);
+  font-weight: 600;
 }
