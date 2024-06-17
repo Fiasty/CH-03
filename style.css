@@ -375,13 +375,13 @@ footer .subscription-form h3 {
   font-weight: 500;
   color: #3b5d50;
 }
-footer .subscription-form .form-control {
+.form-control {
   height: 50px;
   border-radius: 10px;
   font-family: "Inter", sans-serif;
 }
-footer .subscription-form .form-control:active,
-footer .subscription-form .form-control:focus {
+.form-control:active,
+.form-control:focus {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -389,22 +389,18 @@ footer .subscription-form .form-control:focus {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
-footer .subscription-form .form-control::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder {
   font-size: 14px;
 }
-footer .subscription-form .form-control::-moz-placeholder {
+.form-control::-moz-placeholder {
   font-size: 14px;
 }
-footer .subscription-form .form-control:-ms-input-placeholder {
+.form-control:-ms-input-placeholder {
   font-size: 14px;
 }
-footer .subscription-form .form-control:-moz-placeholder {
+.form-control:-moz-placeholder {
   font-size: 14px;
 }
-footer .subscription-form .btn {
-  border-radius: 10px !important;
-}
-
 .footer-sofa img {
   max-width: 380px;
 }
@@ -423,9 +419,8 @@ footer .subscription-form .btn {
 }
 
 /* Shop styles  */
-.product-section,
-.testimonial-slide {
-  padding: 7rem 0 12rem 0 !important;
+.product-section {
+  padding: 7rem 0 !important;
 }
 
 .product-section .product-item .product-image {
@@ -551,7 +546,31 @@ footer .subscription-form .btn {
   font-weight: 600;
 }
 
+/* homePage blog dadicated style  */
+
+.recent-blog-title-wrap h2{
+  color: var(--main-dark);
+}
+
+.text-end{
+  text-align: end;
+}
+
+.recent-blog-title-wrap a{
+  color: var(--main-dark);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.recent-blog-title-wrap a:hover{
+  text-decoration: none;
+}
+
 /* Testimonial Slider style  */
+
+.testimonial-slide {
+  padding: 5rem 0 12rem 0 !important;
+}
 
 .testimonial-heading {
   color: var(--main-dark);
@@ -640,3 +659,60 @@ footer .subscription-form .btn {
   color: var(--primary-color);
   transition: 0.3s all ease;
 }
+
+
+/* Contact Us page style  */
+
+
+.contact-form-section {
+  padding: 7rem 0;
+}
+.contact-upper-infos-wrap i {
+  color: var(--primary-color);
+  background: var(--main-color);
+  font-size: 21px;
+  width: 50px !important;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.contact-form-upper-infos-iconText span {
+  width: calc(100% - 50px) !important;
+}
+
+.contact-form-upper-infos-iconText {
+  display: flex;
+  align-items: center;
+}
+
+.contact-upper-infos-wrap {
+  display: flex;
+  align-items: baseline;
+}
+
+.contact-upper-infos-wrap .comp-info p{
+  line-height: 1.5;
+}
+
+.contact-form-section input {
+  height: 50px;
+}
+
+.contact-form-section label {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form-section .form-group {
+  padding: 0;
+  margin: 0;
+}
+.padding-btn{
+  height: 50px;
+  width: 175px;
+  border-radius: 30px !important;
+}
+
+/* Cart page style  */
