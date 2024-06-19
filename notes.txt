@@ -6,15 +6,18 @@ black; --main-dark: #2f2f2f;
 text-grey; disc-color: #6a6a6a;
 light-green; --main-light; #3b5d50
 
+Fonts ✅
+
+
 -variables to make
-black btn
+black btn ✅
 yellow btn ✅
 light green to dark green btn ✅
 transperent btn ✅
 
-hover effect for product
-before content for dots image 
-testimonial 
+hover effect for product ✅
+before content for dots image  ✅
+testimonial ✅
 
 -Page layout
 header + Mobile header ✅
@@ -23,15 +26,23 @@ footer ✅
 
 
 -Pages (created ✅)
-Home - index.html
-Shop - shop.html
-About Us - about.html
-Searvices - services.html
-Blog - blog.html
-Contact Us - contact.html
-Cart - cart.html
+Home - index.html ❌
+Shop - shop.html ✅
+About Us - about.html ✅
+Searvices - services.html ✅
+Blog - blog.html ✅
+Contact Us - contact.html ✅
+Cart - cart.html ✅
 
-Fonts ✅
+
+responsiveness of all pages ❌
+Home
+Shop
+About Us
+Searvices
+Blog
+Contact Us
+Cart
 
 
 ======>One Product variable code 

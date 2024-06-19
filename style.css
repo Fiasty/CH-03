@@ -51,6 +51,13 @@ a:hover {
   text-decoration: none;
 }
 
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
 .custom-navbar-nav .nav-item a {
   opacity: 0.5;
   color: var(--primary-color);
@@ -265,9 +272,6 @@ a:hover {
 }
 
 /* Footer style */
-.relative {
-  position: relative;
-}
 
 footer a {
   color: var(--main-dark);
@@ -797,4 +801,63 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
   right: -8px;
   bottom: 0;
   border-radius: 50%;
+}
+
+/* Why choose us seciton  */
+
+.why-choose-us-section {
+  padding: 7rem 0;
+}
+.why-choose-us-image-cols .relative img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.why-choose-us-image-cols .relative:before {
+  position: absolute;
+  content: "";
+  width: 255px;
+  height: 217px;
+  background-image: url("dots-yellow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+  z-index: -1;
+}
+
+
+/* Team Syles */
+
+.team {
+  padding: 7rem 0;
+}
+
+.member-name {
+  color: var(--main-dark);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.member-name:hover {
+  text-decoration: none;
+  color: var(--main-dark);
+  cursor: pointer;
+}
+
+.learn-more-link {
+  color: var(--main-dark);
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.learn-more-link:a {
+  color: var(--main-dark) !important;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;  
 }
