@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -92,157 +90,193 @@
               <h1 class="mb-4">Cart</h1>
             </div>
           </div>
-
-          
         </div>
       </div>
     </div>
 
     <!-- ************************ End Hero Section ************************ -->
-    
-
 
     <!-- ************************ Start Cart Page Product Listing section ************************ -->
 
-
     <div class="cart-page-product-listing">
-      <div class="container table-responsive">
+      <div class="container">
+        <div class="table-responsive mb-3">
+          <!-- Cart Page Table Starts -->
+          <table class="table text-center mb-5">
+            <thead>
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col">Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="cart-page-product-listing-product-thumbnail">
+                  <div class="cart-product-listing-image">
+                    <img
+                      src="product-1.png"
+                      alt="productImage"
+                      class="img-fluid"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <h2 class="h5">Product 1</h2>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <div class="input-group justify-content-center">
+                    <input
+                      type="button"
+                      value="-"
+                      class="button-minus border rounded-circle icon-shape icon-sm mx-1 cart-quantity-btn"
+                      data-field="quantity"
+                    />
+                    <input
+                      type="number"
+                      step="1"
+                      max="10"
+                      value="1"
+                      name="quantity"
+                      class="form-control quantity-field border-0 text-center"
+                    />
+                    <input
+                      type="button"
+                      value="+"
+                      class="button-plus border rounded-circle icon-shape icon-sm cart-quantity-btn"
+                      data-field="quantity"
+                    />
+                  </div>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <a href="#" class="btn-cart-remove-cross"
+                    ><i class="fa fa-times" aria-hidden="true"></i
+                  ></a>
+                </td>
+              </tr>
 
-        <!-- Cart Page Table Starts -->
-          <table class=" table text-center mb-5">
-          <thead>
-            <tr>
-              <th scope="col">Image</th>
-              <th scope="col">Product</th>
-              <th scope="col">Price</th>
-              <th scope="col">Quantity</th>
-              <th scope="col">Total</th>
-              <th scope="col">Remove</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="cart-page-product-listing-product-thumbnail">
-                <div class="cart-product-listing-image">
-                <img src="product-1.png" alt="productImage" class="img-fluid">
-              </div>
-              </td>
-              <td>
-              <h2 class="h5">Product 1</h2>
-            </td>
-            <td>$49.00</td>
-            <td>
-              <div class="input-group justify-content-center">
-                <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 cart-quantity-btn" data-field="quantity">
-                <input type="number" step="1" max="10" value="1" name="quantity" class="form-control quantity-field border-0 text-center ">
-                <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm cart-quantity-btn" data-field="quantity">
-             </div>
-            </td>
-            <td>$49.00</td>
-            <td>
-              <a href="#" class="btn-cart-remove-cross"><i class="fa fa-times" aria-hidden="true"></i></a>
-            </td>
-            </tr>
-            
-            <tr>
-              <td class="cart-page-product-listing-product-thumbnail">
-                <div class="cart-product-listing-image">
-                <img src="product-2.png" alt="productImage" class="img-fluid">
-              </div>
-              </td>
-              <td>
-              <h2 class="h5">Product 2</h2>
-            </td>
-            <td>$49.00</td>
-            <td>
-              <div class="input-group justify-content-center">
-                <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 cart-quantity-btn" data-field="quantity">
-                <input type="number" step="1" max="10" value="1" name="quantity" class="form-control quantity-field border-0 text-center ">
-                <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm cart-quantity-btn" data-field="quantity">
-             </div>
-
-             
-            </td>
-            <td>$49.00</td>
-            <td>
-              <a href="#" class="btn-cart-remove-cross"><i class="fa fa-times" aria-hidden="true"></i></a>
-            </td>
-            </tr>
-            
-          </tbody>
+              <tr>
+                <td class="cart-page-product-listing-product-thumbnail">
+                  <div class="cart-product-listing-image">
+                    <img
+                      src="product-2.png"
+                      alt="productImage"
+                      class="img-fluid"
+                    />
+                  </div>
+                </td>
+                <td>
+                  <h2 class="h5">Product 2</h2>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <div class="input-group justify-content-center">
+                    <input
+                      type="button"
+                      value="-"
+                      class="button-minus border rounded-circle icon-shape icon-sm mx-1 cart-quantity-btn"
+                      data-field="quantity"
+                    />
+                    <input
+                      type="number"
+                      step="1"
+                      max="10"
+                      value="1"
+                      name="quantity"
+                      class="form-control quantity-field border-0 text-center"
+                    />
+                    <input
+                      type="button"
+                      value="+"
+                      class="button-plus border rounded-circle icon-shape icon-sm cart-quantity-btn"
+                      data-field="quantity"
+                    />
+                  </div>
+                </td>
+                <td>$49.00</td>
+                <td>
+                  <a href="#" class="btn-cart-remove-cross"
+                    ><i class="fa fa-times" aria-hidden="true"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
           </table>
-        
-        <!-- Cart Page Table Ends -->
 
-        
+          <!-- Cart Page Table Ends -->
+        </div>
+
         <div class="row cart-page-details">
-
           <div class="col-md-6 cart-product-page-details-one-half">
             <div class="row mb-5">
-              <div class="col-md-6 cart-page-details-one-half-btn ">
-                <button class="btn mb-3">Update Cart</button>                
+              <div class="col-md-6 cart-page-details-one-half-btn">
+                <button class="btn mb-3">Update Cart</button>
               </div>
-              <div class="col-md-6 cart-page-details-one-half-btn-group ">
+              <div class="col-md-6 cart-page-details-one-half-btn-group">
                 <button class="btn mb-3">Continue Shopping</button>
               </div>
-              
             </div>
             <div class="row cart-page-details-coupon-code">
-              <div class="col-12 ">
+              <div class="col-12">
                 <h3>Coupon</h3>
                 <p>Enter your coupon code if you have one</p>
               </div>
-              <div class="col-md-8 ">
+              <div class="col-md-8">
                 <div class="form-group">
-                <input type="text" placeholder="Coupon Code" class="form-control">
+                  <input
+                    type="text"
+                    placeholder="Coupon Code"
+                    class="form-control"
+                  />
+                </div>
               </div>
-              </div>
-              <div class="col-md-4 ">
+              <div class="col-md-4">
                 <button class="btn mb-3">Apply Coupon</button>
               </div>
             </div>
           </div>
 
-        <div class="col-md-6 cart-product-page-details-one-half-cart-total">
-          <div class="row justify-content-end d-flex">
-            <div class="col-md-7">
-              
-              <div class="col-12 mb-5 border-bottom cart-total-title">
-                <h3>Cart Total</h3>
-              </div>
+          <div class="col-md-6 cart-product-page-details-one-half-cart-total">
+            <div class="row justify-content-end d-flex">
+              <div class="col-md-7">
+                <div class="col-12 mb-5 border-bottom cart-total-title">
+                  <h3>Cart Total</h3>
+                </div>
 
-              <div class="row mb-3">
-                <div class="col-6 cart-total-text">
-                  <span>Subtotal</span>
+                <div class="row mb-3">
+                  <div class="col-6 cart-total-text">
+                    <span>Subtotal</span>
+                  </div>
+                  <div class="col-6 cart-total-amount">
+                    <span>$230.00</span>
+                  </div>
                 </div>
-                <div class="col-6 cart-total-amount">
-                  <span>$230.00</span>
+                <div class="row mb-5">
+                  <div class="col-6 cart-total-text">
+                    <span>Subtotal</span>
+                  </div>
+                  <div class="col-6 cart-total-amount">
+                    <span>$230.00</span>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12">
+                    <button class="btn">Proceed to Checkout</button>
+                  </div>
                 </div>
               </div>
-              <div class="row mb-5">
-                <div class="col-6 cart-total-text">
-                  <span>Subtotal</span>
-                </div>
-                <div class="col-6 cart-total-amount">
-                  <span>$230.00</span>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-12">
-                <button class="btn">Proceed to Checkout</button>
-              </div>
-              </div>
-
             </div>
           </div>
         </div>
-        </div>
-
       </div>
     </div>
 
     <!-- ************************* End Cart Page Product Listing section ************************* -->
-
 
     <!-- ************************ Start Footer ************************ -->
 
@@ -262,14 +296,14 @@
                 </span>
               </h3>
               <form action="#" class="row">
-                <div class="col-auto">
+                <div class="col-md-5 col-12 ∫">
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Enter your name"
                   />
                 </div>
-                <div class="col-auto">
+                <div class="col-md-5 col-12 newsletter-input-field-wrapper">
                   <input
                     type="email"
                     name="email"
@@ -278,7 +312,7 @@
                     class="form-control"
                   />
                 </div>
-                <div class="col-auto">
+                <div class="col-md-2 col-12 newsletter-input-field-wrapper">
                   <button class="btn btn-primary">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                   </button>
@@ -350,7 +384,7 @@
         </div>
 
         <div class="row pt-4 copyright-border-top footer-copyright">
-          <div class="col-lg-6">
+          <div class="col-md-6 col-12">
             <p>
               Copyright ©2024. All Rights Reserved. <br />
               Template Credit
@@ -369,7 +403,7 @@
               >
             </p>
           </div>
-          <div class="col-lg-6 text-center text-lg-end">
+          <div class="col-md-6 col-12 text-center text-lg-end">
             <ul class="list-unstyled d-inline-flex ml-auto mr-auto">
               <li><a href="#" class="mr-4">terms & Consitions</a></li>
               <li><a href="#">Privacy Policy</a></li>
@@ -399,42 +433,44 @@
 
     <script>
       function incrementValue(e) {
-e.preventDefault();
-var fieldName = $(e.target).data('field');
-var parent = $(e.target).closest('div');
-var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+        e.preventDefault();
+        var fieldName = $(e.target).data("field");
+        var parent = $(e.target).closest("div");
+        var currentVal = parseInt(
+          parent.find("input[name=" + fieldName + "]").val(),
+          10
+        );
 
-if (!isNaN(currentVal)) {
-    parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
-} else {
-    parent.find('input[name=' + fieldName + ']').val(0);
-}
-}
+        if (!isNaN(currentVal)) {
+          parent.find("input[name=" + fieldName + "]").val(currentVal + 1);
+        } else {
+          parent.find("input[name=" + fieldName + "]").val(0);
+        }
+      }
 
-function decrementValue(e) {
-e.preventDefault();
-var fieldName = $(e.target).data('field');
-var parent = $(e.target).closest('div');
-var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
+      function decrementValue(e) {
+        e.preventDefault();
+        var fieldName = $(e.target).data("field");
+        var parent = $(e.target).closest("div");
+        var currentVal = parseInt(
+          parent.find("input[name=" + fieldName + "]").val(),
+          10
+        );
 
-if (!isNaN(currentVal) && currentVal > 0) {
-    parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
-} else {
-    parent.find('input[name=' + fieldName + ']').val(0);
-}
-}
+        if (!isNaN(currentVal) && currentVal > 0) {
+          parent.find("input[name=" + fieldName + "]").val(currentVal - 1);
+        } else {
+          parent.find("input[name=" + fieldName + "]").val(0);
+        }
+      }
 
-$('.input-group').on('click', '.button-plus', function(e) {
-incrementValue(e);
-});
+      $(".input-group").on("click", ".button-plus", function (e) {
+        incrementValue(e);
+      });
 
-$('.input-group').on('click', '.button-minus', function(e) {
-decrementValue(e);
-});
-
-     </script>
-
-
+      $(".input-group").on("click", ".button-minus", function (e) {
+        decrementValue(e);
+      });
+    </script>
   </body>
 </html>
-

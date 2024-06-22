@@ -58,7 +58,7 @@ a:hover {
   position: absolute;
 }
 
-.text-main-dark{
+.text-main-dark {
   color: var(--main-dark);
 }
 
@@ -838,7 +838,6 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
   z-index: -1;
 }
 
-
 /* Team Syles */
 
 .team {
@@ -863,17 +862,14 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-
 .learn-more-link:a {
   color: var(--main-dark) !important;
   text-decoration: none;
   font-weight: 700;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
-
 /* Home-page explore (grid) section style */
-
 
 .explore-sec {
   padding: 7rem 0;
@@ -896,16 +892,14 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
   column-gap: 20px;
   row-gap: 20px;
 }
-.grid-item-wrap> img{
+.grid-item-wrap > img {
   border-radius: 20px;
   max-width: 100%;
-
 }
-
 
 .grid-item-1 {
   grid-column: 1/11;
-  grid-row: 1/16
+  grid-row: 1/16;
 }
 
 .grid-item-2 {
@@ -915,7 +909,7 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
 
 .grid-item-3 {
   grid-column: 8/16;
-  grid-row: 6/16
+  grid-row: 6/16;
 }
 
 .custom-disc-style li {
@@ -940,4 +934,335 @@ input.form-control.quantity-field::-webkit-inner-spin-button {
   width: 8px;
   position: absolute;
   transform: translate(-20px, 10px);
+}
+
+/* * Responsive Media Queries */
+
+/* ? Devices larger than 1024px  */
+
+@media (max-width: 1025px) {
+}
+
+/* ? Devices smaller than 1024px  */
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  /* * Home page; */
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero .hero-img-wrap img {
+    right: 0;
+    top: 0;
+  }
+
+  .hero .hero-img-wrap:after {
+    right: 0;
+  }
+
+  /* * Cart Page  */
+  .cart-page-details .btn {
+    padding: 12px 25px;
+  }
+
+  .cart-page-details-coupon-code .btn {
+    padding: 12px 9px;
+  }
+}
+
+/* ? Devices smaller than 992 px  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* * Home page  */
+
+  .upper-explore-content {
+    padding-top: 4rem;
+  }
+  .why-choose-us-image-cols {
+    padding-top: 50px;
+}
+
+/* * Shop Page */
+
+.product-section .row {
+  justify-content: center;
+}
+.footer-newsletter-col {
+  margin-bottom: 40px;
+}
+/* * About Us page */
+.team {
+  padding: 7rem 0 2rem 0;
+}
+
+/* * Services Page */
+
+.product-section {
+  padding: 7rem 0 0 0 !important;
+}
+
+.team-member {
+  margin-bottom: 4rem;
+}
+
+/* * Blog Page */
+
+.blog-section {
+  padding: 7rem 0 7rem 0;
+}
+/* * Contact Us Page */
+
+.cart-page-details .btn {
+  padding: 12px 0;
+}
+
+  /* * Cart page  */
+
+  .cart-page-details .btn {
+    width: 100%;
+    font-size: 10px;
+  }
+}
+
+/* ? Devices smaller than 768 px  */
+
+@media (min-width: 560px) and (max-width: 767px) {
+
+  /* * Home page  */
+
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 30px;
+
+}
+.footer-copyright {
+  text-align: center;
+}
+
+  .hero {
+    padding: 2rem 1rem 8rem 2rem;
+}
+
+.hero .hero-img-wrap img {
+    top: -60px;
+}
+
+.hero .hero-img-wrap:after {
+    top: -70px !important;
+    right: -20px !important;
+}
+
+.product-section {
+    padding: 8rem 0 0 0 !important;
+}
+
+.why-choose-us-section-service-wrap{
+  padding: 0 2rem;
+}
+
+.why-choose-us-section-title{
+  padding: 2rem calc(2rem + 15px) !important;
+
+
+}
+.subscription-form form .col-12 {
+  margin-block-end: 1rem;
+  margin-top: 10px;
+}
+.subscription-form form .btn {
+  width: 100%;
+}
+.footer-newsletter-col {
+  margin-bottom: 20px;
+}
+
+.why-choose-us-image-cols {
+    padding-top: 50px;
+}
+.upper-explore-content {
+    padding: 4rem 2rem 0 2rem;
+  }
+/* * About Us Page */
+
+.team {
+  padding: 2rem 2rem;
+}
+.team-member {
+  padding-top: 3rem;
+}
+.team-member .img-wrapper {
+  margin-bottom: 0.5rem !important;
+}
+
+.team-member-designation-intro br:first-child {
+  display: none;
+}
+
+.team-member-designation-intro span {
+  margin-top: 1rem !important;
+}
+
+.team-member-designation-intro span {
+  display: block;
+  margin-top: 10px !important;
+}
+/* * Services Page */
+.services-listing-section {
+  padding: 7rem 2rem;
+}
+
+/* * Blog Page */
+
+.blog-section {
+  padding: 8rem 2rem 0rem 2rem !important;
+}
+
+/* * Blog Page */
+
+.contact-form-section {
+  padding: 8rem 2rem 7rem 2rem;
+}
+/* * Cart Page */
+
+.cart-page-details .btn {
+  width: 100%;
+}
+.table .h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.cart-total-title {
+  padding-left: 0;
+}
+}
+
+/* ? Devices smaller than 560 px  */
+
+@media (max-width: 559px) {
+
+  /* * Home Page  */
+  footer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10px;
+  }
+  .footer-copyright {
+    text-align: center;
+}
+  .newsletter-input-field-wrapper {
+    margin-top: 20px;
+}
+  .hero {
+    padding: 4rem 1rem 4rem 1rem;
+}
+
+.hero .hero-img-wrap:after {
+  top: -70px !important;
+  right: -20px !important;
+}
+
+.hero .hero-img-wrap img {
+    top: -50px;
+}
+
+.product-section {
+    padding: 7rem 1rem 2rem 1rem !important;
+}
+
+.why-choose-us-section {
+    padding: 7rem 1rem 5rem 0rem;
+}
+
+.upper-explore-content {
+    padding: 3rem 1rem 0 1rem;
+}
+
+.explore-sec {
+    padding: 7rem 0 2rem 0;
+}
+
+.testimonial-slide {
+    padding: 5rem 1rem 12rem 1rem !important;
+}
+
+.recent-blog-title-wrap h2 {
+    font-size: 1.5rem;
+}
+
+.blog-section {
+    padding: 7rem 1rem 6rem 1rem;
+}
+
+
+
+/* * About Us Page */
+.why-choose-us-image-cols {
+  padding-top: 50px;
+}
+
+.team {
+  padding: 1rem 1rem;
+}
+.team-member {
+  padding-top: 3rem;
+}
+.team-member .img-wrapper {
+  margin-bottom: 0.5rem !important;
+}
+
+.team-member-designation-intro br:first-child {
+  display: none;
+}
+
+.team-member-designation-intro span {
+  margin-top: 1rem !important;
+}
+
+.team-member-designation-intro span {
+  display: block;
+  margin-top: 10px !important;
+}
+/* * Services Page */
+
+.services-listing-section {
+  padding: 7rem 1rem 0rem 1rem;
+}
+/* * Contact Us Page */
+
+.contact-form-section {
+  padding: 7rem 1rem 7rem 1rem;
+}
+
+.contact-upper-infos-wrap:first-child {
+  padding-top: 0;
+  margin-top : 0;
+}
+.contact-form-section form .btn {
+  width: 100%;
+}
+
+.contact-upper-infos-wrap {
+  padding-top: 0px !important;
+  align-items: center;
+  height: 75px;
+}
+.cart-page-details .btn {
+  width: 100% !important;
+}
+}
+
+@media (max-width: 420px){
+  .hero-txt-content .btn:last-child {
+    margin-top: 1rem;
+    max-width: 100% !important;
+}
+.hero-txt-content{
+    max-width: 100%;
+}
+
+.hero-txt-content .btn {
+    width: 100%;
+}
 }
